@@ -14,12 +14,20 @@
             <p>비밀번호 : <input type="password"></p>
             <p>검색 : <input type="search"></p>
             <p>이메일 : <input type="email"></p>
-            <p>전화번호 : <input type="tel"></p>
+            <p>전화번호 : 
+                <select name="phone" id="phone" required>
+                    <option>지역번호</option>
+                    <option selected>02</option>
+                    <option>031</option>
+                    <option>032</option>
+                    <option>010</option>
+                </select>
+                <input type="tel"></p>
             <p>컬러선택 : <input type="color"></p>
             <p>수량 : <input type="number" min="1" max="10" value="1"></p>
             <p>만족도 : <input type="range" min="1" max="10" value="1"></p>
-            <p>예<input type="radio" name="receive" checked="checked"> 아니오<input type="radio" name="receive"></p>
-            <p>html<input type="checkbox" checked="checked"> css<input type="checkbox"></p>
+            <label><p>예<input type="radio" name="receive" checked="checked"></label> <label>아니오<input type="radio" name="receive"></label></p>
+            <p><label>html<input type="checkbox" checked="checked"></label><label> css<input type="checkbox"></label></p>
             <p><input type="submit" value="전송"></p>
             <p><input type="reset" value="취소"></p>
             <p><input type="button" value="확인"></p>
