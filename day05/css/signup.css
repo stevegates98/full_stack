@@ -16,12 +16,15 @@ ul li{
 ul li label{
     width: 120px;
     float: left;
+    text-align: right;
+    margin-right: 10px;
+    color: green;
 }
 ul li input{
-    width: 250px;
+    width: 200px;
     height: 30px;
 }
-#path{
+#umail, #path{
     width: 120px;
     height: 30px;
 }
