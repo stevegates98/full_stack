@@ -48,8 +48,11 @@ header #topMenu li a{
 #contents section p{
     line-height: 2;
 }
-#contents #healing img{
+#contents #healing img, #activity img{
     float: left;
     margin-right: 20px;
     border-radius: 20px;
+}
+#contents #healing, #activity{
+    height: 300px;
 }
