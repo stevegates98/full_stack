@@ -56,10 +56,10 @@ nav{
 #contents h2{
     margin-bottom: 20px;
 }
-#contents section p{
+#contents p{
     line-height: 2;
 }
-#contents section div{
+#contents div{
     margin: 30px 10px;
 }
 #healing img, #activity img{
