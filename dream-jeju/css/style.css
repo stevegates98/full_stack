@@ -42,6 +42,12 @@ header #topMenu li a{
     width: 1000px;
     margin: 30px auto;
 }
+#contents #healing, #contents #activity{
+    margin: 30px 10px;
+}
+#contents section h2{
+    margin-bottom: 20px;
+}
 #contents section div{
     margin: 30px 10px;
 }
@@ -55,4 +61,36 @@ header #topMenu li a{
 }
 #contents #healing, #activity{
     height: 300px;
+}
+footer{
+    width: 1000px;
+    margin: 30px auto;
+    border-top: 2px solid #222;
+}
+footer #bottomMenu{
+    list-style: none;
+    margin: 10px 10px 10px 30px;
+}
+footer #bottomMenu li{
+    display: inline-block;
+    margin: 10px 0;
+    border-right: 1px solid #aaa;
+    padding: 0 10px;
+}
+footer #bottomMenu :last-child{
+    border: none;
+}
+footer #bottomMenu li a{
+    text-decoration: none;
+    color: #333;
+}
+
+/* product 스타일 */
+#product{
+    width: 1000px;
+    margin: 30px auto;
+}
+#product #description{
+    border: 1px solid #ccc;
+    padding: 20px 60px;
 }
