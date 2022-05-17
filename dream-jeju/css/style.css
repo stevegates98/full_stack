@@ -3,93 +3,110 @@
     width: 1200px;
     margin: 0 auto;
 }
+main{
+    width: 1000px;
+    margin: 30px auto;
+}
 
 /* header 영역 */
 header{
     height: 80px;
     background: rgb(0, 59, 0);
 }
-header #logo{
+#logo{
     width: 300px;
     float: left;
     padding: 15px 30px;
 }
-header #logo a{
+#logo a{
     color: yellow;
     text-decoration: none;
 }
-header nav{
+nav{
     width: 800px;
     float: right;
 }
-header #topMenu{
+#topMenu{
     list-style: none;
     text-align: right;
     margin-right: 50px;
     padding: 15px 20px;
 }
-header #topMenu li{
+#topMenu li{
     display: inline-block;
     margin: 10px 20px;
 }
-header #topMenu li a{
+#topMenu li a{
     color: #fff;
     text-decoration: none;
 }
+#topMenu li a:hover{
+    color: yellow
+}
+
 
 /* index 스타일 */
-#contents{
+/* #contents{
     width: 1000px;
     margin: 30px auto;
-}
-#contents #healing, #contents #activity{
+} */
+#healing, #activity{
     margin: 30px 10px;
 }
-#contents section h2{
+#contents h2{
     margin-bottom: 20px;
-}
-#contents section div{
-    margin: 30px 10px;
 }
 #contents section p{
     line-height: 2;
 }
-#contents #healing img, #activity img{
+#contents section div{
+    margin: 30px 10px;
+}
+#healing img, #activity img{
     float: left;
     margin-right: 20px;
     border-radius: 20px;
 }
-#contents #healing, #activity{
+#healing, #activity{
     height: 300px;
 }
+#sightseeing ul li{
+    margin: 10px 30px;
+    list-style: square;
+}
+#sightseeing ul li a{
+    text-decoration: none;
+    color: #222;
+}
+
 footer{
     width: 1000px;
     margin: 30px auto;
     border-top: 2px solid #222;
 }
-footer #bottomMenu{
+#bottomMenu{
     list-style: none;
     margin: 10px 10px 10px 30px;
 }
-footer #bottomMenu li{
+#bottomMenu li{
     display: inline-block;
     margin: 10px 0;
     border-right: 1px solid #aaa;
     padding: 0 10px;
 }
-footer #bottomMenu :last-child{
+#bottomMenu :last-child{
     border: none;
 }
-footer #bottomMenu li a{
+#bottomMenu li a{
     text-decoration: none;
     color: #333;
 }
 
 /* product 스타일 */
-#product{
+/* #product{
     width: 1000px;
     margin: 30px auto;
-}
+} */
 #product p, #product li{
     line-height: 2;
 }
@@ -97,7 +114,7 @@ footer #bottomMenu li a{
     margin: 10px;
 }
 
-#product #description{
+#description{
     width: 800px;
     margin: 0 auto;
     border: 1px solid #ccc;
@@ -106,23 +123,23 @@ footer #bottomMenu li a{
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
 }
-#product #description img{
+#description img{
     border-radius: 5px;
     margin: 10px;
 }
 
-#product #recipe{
+#recipe{
     border: 1px solid #ccc;
     padding: 20px 60px;
     width: 800px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
-#product #recipe ol{
+#recipe ol{
     padding-left: 20px;
 }
 
-#product #package{
+#package{
     border: 1px solid #ccc;
     padding: 20px 60px;
     width: 800px;
