@@ -90,18 +90,46 @@ footer #bottomMenu li a{
     width: 1000px;
     margin: 30px auto;
 }
+#product p, #product li{
+    line-height: 2;
+}
+#product h2{
+    margin: 10px;
+}
 #product #description{
+    width: 800px;
+    margin: 0 auto;
     border: 1px solid #ccc;
     padding: 20px 60px;
     margin-bottom: 20px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+#product #description img{
+    border-radius: 5px;
+    margin: 10px;
 }
 #product #recipe{
     border: 1px solid #ccc;
     padding: 20px 60px;
+    width: 800px;
+    margin: 0 auto;
     margin-bottom: 20px;
+}
+#product #recipe ol{
+    padding-left: 20px;
 }
 #product #package{
     border: 1px solid #ccc;
     padding: 20px 60px;
+    width: 800px;
+    margin: 0 auto;
     margin-bottom: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#product table, #product table th, #product table td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 10px 20px;
 }
