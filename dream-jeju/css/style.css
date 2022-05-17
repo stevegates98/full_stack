@@ -93,4 +93,15 @@ footer #bottomMenu li a{
 #product #description{
     border: 1px solid #ccc;
     padding: 20px 60px;
+    margin-bottom: 20px;
+}
+#product #recipe{
+    border: 1px solid #ccc;
+    padding: 20px 60px;
+    margin-bottom: 20px;
+}
+#product #package{
+    border: 1px solid #ccc;
+    padding: 20px 60px;
+    margin-bottom: 20px;
 }
