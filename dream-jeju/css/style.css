@@ -30,7 +30,7 @@ header #topMenu{
 }
 header #topMenu li{
     display: inline-block;
-    margin: 15px;
+    margin: 10px 20px;
 }
 header #topMenu li a{
     color: #fff;
@@ -96,6 +96,7 @@ footer #bottomMenu li a{
 #product h2{
     margin: 10px;
 }
+
 #product #description{
     width: 800px;
     margin: 0 auto;
@@ -109,6 +110,7 @@ footer #bottomMenu li a{
     border-radius: 5px;
     margin: 10px;
 }
+
 #product #recipe{
     border: 1px solid #ccc;
     padding: 20px 60px;
@@ -119,6 +121,7 @@ footer #bottomMenu li a{
 #product #recipe ol{
     padding-left: 20px;
 }
+
 #product #package{
     border: 1px solid #ccc;
     padding: 20px 60px;
@@ -128,6 +131,7 @@ footer #bottomMenu li a{
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
+
 #product table, #product table th, #product table td{
     border: 1px solid #ccc;
     border-collapse: collapse;
