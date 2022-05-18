@@ -1,0 +1,5 @@
+*{margin: 0; padding: 0;}
+#container{width: 1000px; margin: 30px auto;}
+#container > h1{text-align: center;}
+.productList{list-style: none; margin-top: 30px;}
+.productList li{display: inline-block;margin: 5px 10px;}
