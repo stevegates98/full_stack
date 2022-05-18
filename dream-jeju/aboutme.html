@@ -7,13 +7,18 @@
     <title>메인 페이지</title>
     <link rel="stylesheet" href="./css/style.css">
     <style>
+        section{
+            margin: 0 auto;
+        }
         table{
+            border-collapse: collapse;
             width: 1000px;
-            height: 800px;
         }
         table, tr{
             border: 1px solid black;
-            border-collapse: collapse;
+        }
+        table td{
+            text-align: center;
         }
     </style>
 </head>
@@ -33,33 +38,139 @@
             </nav>
         </header>
         <main id="profile">
-            <section id="intro">
-                <h1>긍정 에너지 <em>Software Engineer</em> 김도현입니다.</h1>
-                <h2>About Me</h2>
-                <hr>
-                <div>
-                    <img src="" alt="증명사진">
-                    <br>
-                    <p>
-                        - 이름 : 김도현<br>
-                        - 생년월일 : 1998년 12월 19일<br>
-                        - 거주지 : 서울특별시 마포구 공덕동<br>
-                        - 관심사 : 파이썬 언어를 이용한 매크로 개발
-                    </p>
-                    <br>
-                    <p>
-                        <small><a href="https://github.com/stevegates98">깃허브 | https://github.com/stevegates98</a></small>
-                    </p>
-                </div>
+            <section>
+                <table>
+                    <tr>
+                        <td rowspan="4">사진</td>
+                        <th colspan="8" style="font-size: 26px;">자기소개서</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2" id="colset">성 명</th>
+                        <td id="colset">한 글</td>
+                        <td></td>
+                        <td colspan="2">생 년 월 일</td>
+                        <td colspan="3">E-mail</td>
+                    </tr>
+                    <tr>
+                        <td>한 문</td>
+                        <td></td>
+                        <td colspan="2"></td>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">연 락 처</td>
+                        <td></td>
+                        <td colspan="3">긴급 연락처</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>현주소</td>
+                        <td colspan="8"></td>
+                    </tr>
+                </table>
             </section>
-            <section id="skill">
-                <h2>Skill & Portpolio</h2>
-                <hr>
-                <div>
-                    <ul>
-                        <li><a href="koreauser98.dothome.co.kr">dream-jeju 프로젝트 - by HTML&CSS</a></li>
-                    </ul>
-                </div>
+            <section>
+                <table>
+                    <tr>
+                        <th colspan="6" style="font-size:22px">학 력 사 항</th>
+                    </tr>
+                    <tr>
+                        <th>학위과정</th>
+                        <th>기 간</th>
+                        <th>학 교 명</th>
+                        <th>전 공</th>
+                        <th>수료</th>
+                        <th>졸업</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>~</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>~</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>~</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>~</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th colspan="6" style="font-size:22px">전 공 경 력 사 항</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">근무년월</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">년  월</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">년  월</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">년  월</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">년  월</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">년  월</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">년  월</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">참 고 사 항</td>
+                        <td colspan="4"></td>
+                    </tr>
+                </table>
             </section>
         </main>
         <footer>
