@@ -3,3 +3,8 @@
 #container > h1{text-align: center;}
 .productList{list-style: none; margin-top: 30px;}
 .productList li{display: inline-block;margin: 5px 10px;}
+.productList .caption{width: 300px; height: 200px; background: rgba(0, 0, 0, 0.6); visibility: hidden;}
+/* .productList li img:hover{visibility: visible;} */
+.productList li:hover .caption{transform: translateY(-200px); transition: 1s; visibility: visible;}
+/* .productList img:hover .caption{visibility: visible;} */
+.productList li h1, p{color: #fff; text-align: center;}
