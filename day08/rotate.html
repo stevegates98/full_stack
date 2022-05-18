@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform: rotate 예제</title>
+    <style>
+        div{
+            width: 200px;
+            border: 5px solid #0f0;
+            padding: 10px;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+        div:hover{
+            /* 크롬 브라우저 지원 접두사(prefix) */
+            -webkit-transform: rotate(-90deg);
+            /* 인터넷 익스플로러 지원 접두사(prefix) */
+            -ms-transform: rotate(-90deg);
+            /* 모질라 파이어폭스 지원 접두사(prefix) */
+            -moz-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Mouse Over</h1>
+    </div>
+</body>
+</html>
