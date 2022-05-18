@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>긴 문자 가로맞춤</title>
+    <style>
+        ul{
+            width: 200px;
+            border: 1px solid #000;
+        }
+        ul:nth-child(2) li{word-break: keep-all; word-wrap: break-word;}
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <p>이름 : 홍길동</p>
+        </li>
+        <li>
+            <p>이메일 : hongkildong20180101koreapublishing20181231@hanmail.net</p>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <p>이름 : 홍길동</p>
+        </li>
+        <li>
+            <p>이메일 : hongkildong20180101koreapublishing20181231@hanmail.net</p>
+        </li>
+    </ul>
+</body>
+</html>
