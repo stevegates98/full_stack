@@ -7,18 +7,46 @@
     <title>메인 페이지</title>
     <link rel="stylesheet" href="./css/style.css">
     <style>
-        section{
-            margin: 0 auto;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
         table{
+            margin: 0 auto;
             border-collapse: collapse;
-            width: 1000px;
+            width: 800px;
+        }
+        #profile{
+            
         }
         table, tr{
             border: 1px solid black;
         }
-        table td{
+        table td, table th{
             text-align: center;
+            padding: 5px 10px;
+        }
+        #spacing{
+            letter-spacing: 5px;
+            width: 50px;
+            height: 20px;
+            font-size: 20px;
+            text-align: center;
+            padding: 5px 10px;
+        }
+        #area{
+            margin: 0;
+            padding: 0;
+        }
+        textarea{
+            font-size: 20px;
+            text-align: center;
+            border-color: #fff;
+            resize: none;
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+        #mail{
+            padding: 5px 10px;
+        }
+        #mail textarea{
+            font-size: 1em;
         }
     </style>
 </head>
@@ -41,30 +69,34 @@
             <section>
                 <table>
                     <tr>
-                        <td rowspan="4">사진</td>
-                        <th colspan="8" style="font-size: 26px;">자기소개서</th>
+                        <th colspan="9" style="font-size: 26px; letter-spacing: 5px;">자기소개서</th>
                     </tr>
                     <tr>
-                        <th rowspan="2" id="colset">성 명</th>
-                        <td id="colset">한 글</td>
-                        <td></td>
-                        <td colspan="2">생 년 월 일</td>
-                        <td colspan="3">E-mail</td>
-                    </tr>
-                    <tr>
-                        <td>한 문</td>
-                        <td></td>
-                        <td colspan="2"></td>
+                        <th rowspan="6">사진</th>
+                        <th rowspan="2" id="spacing">성명</th>
+                        <th id="spacing">한글</th>
+                        <td id="area"><textarea cols="4" rows="1">김도현</textarea></td>
+                        <th colspan="2" id="spacing">생년월일</th>
                         <td colspan="3"></td>
                     </tr>
                     <tr>
-                        <td colspan="3">연 락 처</td>
-                        <td></td>
-                        <td colspan="3">긴급 연락처</td>
-                        <td></td>
+                        <th id="spacing">한문</th>
+                        <td><textarea cols="4" rows="1">金到到</textarea></td>
+                        <th colspan="2" style="font-size: 20px;">E-mail</th>
+                        <td colspan="3" id="mail"><textarea cols="20" rows="1">koreauser98@naver.com</textarea></td>
                     </tr>
                     <tr>
-                        <td>현주소</td>
+                        <th colspan="4" id="spacing">연락처</th>
+                        <th colspan="4">긴급 연락처</th>
+                    </tr>
+                    <tr>
+                        <th colspan="4" rowspan="3"></th>
+                        <th colspan="4" rowspan="3"></th>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr>
+                        <th>현주소</th>
                         <td colspan="8"></td>
                     </tr>
                 </table>
@@ -76,9 +108,9 @@
                     </tr>
                     <tr>
                         <th>학위과정</th>
-                        <th>기 간</th>
-                        <th>학 교 명</th>
-                        <th>전 공</th>
+                        <th id="spacing">기간</th>
+                        <th id="spacing">학교명</th>
+                        <th id="spacing">전공</th>
                         <th>수료</th>
                         <th>졸업</th>
                     </tr>
@@ -118,7 +150,7 @@
                         <th colspan="6" style="font-size:22px">전 공 경 력 사 항</th>
                     </tr>
                     <tr>
-                        <td colspan="2">근무년월</td>
+                        <th colspan="2">근무년월</th>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -167,7 +199,7 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td colspan="2">참 고 사 항</td>
+                        <th colspan="2" id="spacing">참고사항</th>
                         <td colspan="4"></td>
                     </tr>
                 </table>
