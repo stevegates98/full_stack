@@ -1,4 +1,6 @@
 *{margin: 0; padding: 0;}
+
+/* main-menu */
 #container{width:1000px; margin:0 auto;}
 nav{height: 60px; background: rgb(1, 1, 168);}
 #main-menu, #sub-menu{list-style: none; text-align: center;}

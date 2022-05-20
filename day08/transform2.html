@@ -6,16 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>변형 속성</title>
     <style>
-                                                            /*20도 각도로 회전*/
-        div.b{width: 150px; height:80px; background: #0f0;}
-        div.b:hover{transform: rotate(20deg);}
-                                                            /*x축으로 50px이동*/
-                                                            /* transition 지연시간 설정 */
-        div.c{width: 150px; height:80px; background: #0f0; transition-property: height, background-color, transform; transition-duration: 1s, 1s;}
-        div.c:hover{height:100px; transform: translateY(-50px); background: blue;}
-                                                            /*y축으로 1.5배 확대*/
-        div.d{width: 150px; height:80px; background: #0f0;}
-        div.d:hover{transform: scaley(1.5);}
+        /*20도 각도로 회전*/
+        div.b{
+            width: 150px; 
+            height:80px; 
+            background: #0f0;
+        }
+        div.b:hover{
+            transform: rotate(20deg);
+        }
+        /*x축으로 50px이동*/
+        /* transition 지연시간 설정 */
+        div.c{
+            width: 150px; 
+            height:80px; 
+            background: #0f0; 
+            transition-property: height, background-color, transform;
+            transition-duration: 1s, 1s;
+        }
+        div.c:hover{
+            /* x축으로 500px 이동 */
+            height:100px; 
+            background: #00f;
+            transform: translateY(-50px); 
+            
+        }
+        /*y축으로 1.5배 확대*/
+        div.d{
+            width: 150px; 
+            height:80px; 
+            background: #0f0;
+        }
+        div.d:hover{
+            transform: scaley(1.5);
+        }
     </style>
 </head>
 <body>
